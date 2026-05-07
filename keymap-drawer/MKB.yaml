@@ -386,8 +386,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - JP YEN
-  - JP UNDERSCORE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - SEMICOLON
   - APOS
   - {t: ▽, type: trans}
