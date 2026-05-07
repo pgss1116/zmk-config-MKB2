@@ -1,5 +1,15 @@
 #include <input/processors/runtime-input-processor.dtsi>
 
+&zip_temp_layer {
+    excluded-positions = <
+        7  // Y 
+        19 // H
+        20 // J
+        21 // K
+        22 // L
+    >;
+};
+
 / {
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
