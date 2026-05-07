@@ -30,7 +30,7 @@
                            <&zip_temp_layer 3 5000>;
 
         scroll {
-            layers = <4>;
+            layers = <1>;
             input-processors = <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>, 
                                <&zip_xy_to_scroll_mapper>, 
                                <&scroll_runtime_input_processor>;
