@@ -22,8 +22,8 @@ layers:
   - H
   - {t: J, h: Fnc}
   - {t: K, h: Num}
-  - {t: L, h: Mouse}
-  - {t: SEMI, h: Scr}
+  - L
+  - SEMI
   - APOS
   - LSHFT
   - Z
@@ -199,7 +199,7 @@ layers:
   - '&mkp MB4'
   - '&mkp MB1'
   - '&mkp MB3'
-  - {t: '&mkp MB2', type: held}
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -259,7 +259,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
