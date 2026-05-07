@@ -386,8 +386,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0x89'
+  - Sft+0x87
   - SEMICOLON
   - APOS
   - {t: ▽, type: trans}
