@@ -387,7 +387,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - JP UNDERSCORE
+  - {t: ▽, type: trans}
   - SEMICOLON
   - APOS
   - {t: ▽, type: trans}
