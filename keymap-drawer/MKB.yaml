@@ -23,7 +23,7 @@ layers:
   - {t: J, h: Fnc}
   - {t: K, h: Num}
   - {t: L, h: Mouse}
-  - {t: L, h: Scr}
+  - {t: SEMI, h: Scr}
   - APOS
   - LSHFT
   - Z
