@@ -12,11 +12,9 @@
 #define MOUSE 3
 #define SCROLL 4
 #define BT 5
-
 #define JP_YEN          0x89              // ¥
 #define JP_PIPE         LS(0x89)          // |
 #define JP_UNDERSCORE   LS(0x87)          // _
-
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 60
 
 &mt {
@@ -27,14 +25,15 @@
 };
 
 / {
-     behaviors {
-       encoder_msc_down_up: encoder_msc_down_up {
-           compatible = "zmk,behavior-sensor-rotate";
-           label = "ENCODER_MSC_DOWN_UP";
-           #sensor-binding-cells = <0>;
-           bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-           tap-ms = <20>;
-       };
+    behaviors {
+        encoder_msc_down_up: encoder_msc_down_up {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_DOWN_UP";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <20>;
+        };
     };
 
     keymap {
@@ -45,7 +44,7 @@
             bindings = <
 &kp ESC    &kp Q     &kp W      &kp E     &kp R             &kp T            &kp Y        &kp U                     &kp I      &kp O      &kp P      &kp BACKSPACE
 &kp TAB    &kp A     &kp S      &lt 2 D   &lt 1 F           &kp G            &kp H        &lt 1 J                   &lt 2 K    &kp L      &kp SEMI   &kp APOS
-&kp LSHFT  &kp Z     &kp X      &kp C     &kp V             &kp B            &kp N        &kp M                     &kp COMMA  &kp DOT    &kp SLASH  &kp LEFT_SHIFT
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V             &kp B            &kp N        &kp M                     &kp COMMA  &kp DOT    &kp SLASH  &kp LEFT_CONTROL
 &trans     &kp LGUI  &kp LALT             &kp LEFT_CONTROL  &lt 6 SPACE      &lt 6 ENTER  &mt LEFT_SHIFT BACKSPACE             &trans     &trans     &trans
 &kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                                       &kp HOME                  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                 &kp A                                                                               &kp B
