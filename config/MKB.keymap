@@ -43,9 +43,7 @@
            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
            tap-ms = <20>;
        };
-};
-
-  };
+    };
 
     keymap {
         compatible = "zmk,keymap";
