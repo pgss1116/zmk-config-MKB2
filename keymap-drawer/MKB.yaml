@@ -38,7 +38,7 @@ layers:
   - SLASH
   - LEFT CONTROL
   - {t: ▽, type: trans}
-  - TAB
+  - {t: ▽, type: trans}
   - LALT
   - LEFT CONTROL
   - {t: SPACE, h: '6'}
