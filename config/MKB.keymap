@@ -17,6 +17,8 @@
 #define JP_PIPE         LS(0x89)          // |
 #define JP_UNDERSCORE   LS(0x87)          // _
 
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 80
+
 &mt {
     flavor = "balanced";
     tapping-term-ms = <280>;
@@ -25,6 +27,15 @@
 };
 
 / {
+     behaviors {
+       encoder_msc_down_up: encoder_msc_down_up {
+           compatible = "zmk,behavior-sensor-rotate";
+           label = "ENCODER_MSC_DOWN_UP";
+           #sensor-binding-cells = <0>;
+           bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+           tap-ms = <20>;
+       };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -39,9 +50,7 @@
                                 &kp A                                                                               &kp B
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp PAGE_UP PAGE_DOWN>,
-                <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         function_layer {
