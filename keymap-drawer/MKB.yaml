@@ -38,15 +38,15 @@ layers:
   - SLASH
   - LEFT CONTROL
   - {t: ▽, type: trans}
-  - LGUI
+  - TAB
   - LALT
   - LEFT CONTROL
   - {t: SPACE, h: '6'}
   - {t: ENTER, h: '6'}
   - {t: BACKSPACE, h: LEFT SHIFT}
+  - LEFT WIN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT
   - LEFT
   - UP
   - SPACE
@@ -341,7 +341,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - LEFT
   - UP
   - SPACE
