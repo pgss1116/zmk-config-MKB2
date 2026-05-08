@@ -35,6 +35,16 @@
            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
            tap-ms = <20>;
        };
+
+    　　encoder_msc_left_right: encoder_msc_left_right {
+        　 compatible = "zmk,behavior-sensor-rotate";
+           label = "ENCODER_MSC_LEFT_RIGHT";
+           #sensor-binding-cells = <0>;
+           bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
+           tap-ms = <20>;
+    };
+};
+
   };
 
     keymap {
@@ -65,7 +75,7 @@
                              &kp A                                                    &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&encoder_msc_left_right>;
         };
 
         num_layer {
