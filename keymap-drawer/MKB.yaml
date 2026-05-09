@@ -38,14 +38,14 @@ layers:
   - SLASH
   - LEFT CONTROL
   - {t: ▽, type: trans}
-  - TAB
+  - {t: ▽, type: trans}
   - LALT
   - LEFT CONTROL
   - {t: SPACE, h: '6'}
   - {t: ENTER, h: '6'}
   - {t: BACKSPACE, h: LEFT SHIFT}
   - LEFT WIN
-  - TAB
+  - {t: ▽, type: trans}
   - BT
   - LEFT
   - UP
