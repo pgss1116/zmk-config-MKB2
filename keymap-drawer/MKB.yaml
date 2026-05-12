@@ -47,11 +47,11 @@ layers:
   - LEFT WIN
   - {t: ▽, type: trans}
   - BT
-  - UP
+  - ''
   - LEFT ALT
   - SPACE
   - Alt+DOWN
-  - DOWN
+  - ''
   - Gui+R
   - LEFT WIN
   - ENTER
