@@ -52,11 +52,11 @@ layers:
   - SPACE
   - DOWN
   - RIGHT
-  - HOME
-  - PG UP
+  - Gui+R
+  - LEFT WIN
   - ENTER
-  - PG DN
-  - END
+  - Gui+PG DN
+  - Gui+E
   - A
   - B
   Fnc:
