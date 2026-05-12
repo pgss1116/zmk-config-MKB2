@@ -165,11 +165,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - UP
+  - Ctl+HOME
+  - Ctl+PG UP
   - SPACE
-  - DOWN
-  - RIGHT
+  - Ctl+PAGE DOWN
+  - Ctl+END
   - HOME
   - PG UP
   - ENTER
