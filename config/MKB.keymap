@@ -52,17 +52,19 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
 
-            bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp TAB>;
+            bindings = <
+                &macro_press &kp LALT
+                &macro_tap &kp TAB
+            >;
         };
 
         alt_tab_release: alt_tab_release {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
 
-            bindings
-                = <&macro_release &kp LALT>;
+            bindings = <
+                &macro_release &kp LALT
+            >;
         };
     };
 };
