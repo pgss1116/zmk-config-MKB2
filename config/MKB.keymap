@@ -44,9 +44,7 @@
             tap-ms = <20>;
         };
     };
-};
 
-/ {
     macros {
         alt_tab: alt_tab {
             compatible = "zmk,behavior-macro";
@@ -67,7 +65,6 @@
             >;
         };
     };
-};
 
     keymap {
         compatible = "zmk,keymap";
