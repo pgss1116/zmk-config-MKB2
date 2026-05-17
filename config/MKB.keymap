@@ -45,6 +45,27 @@
         };
     };
 
+/ {
+    macros {
+        alt_tab: alt_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp TAB>;
+        };
+
+        alt_tab_release: alt_tab_release {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+
+            bindings
+                = <&macro_release &kp LALT>;
+        };
+    };
+};
+
     keymap {
         compatible = "zmk,keymap";
 
