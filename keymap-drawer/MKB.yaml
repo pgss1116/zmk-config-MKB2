@@ -47,11 +47,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT
-  - '&alt_tab'
+  - LEFT
   - LEFT ALT
   - SPACE
   - Alt+DOWN
-  - '&alt_tab_release'
+  - RIGHT
   - Gui+Ctl+LEFT
   - LEFT WIN
   - ENTER
