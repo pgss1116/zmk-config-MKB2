@@ -39,19 +39,19 @@ layers:
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
+  - {t: ▽, type: trans}
   - LEFT CONTROL
   - {t: SPACE, h: '6'}
   - {t: ENTER, h: '6'}
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - LEFT WIN
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT
-  - '&alt_tab_release'
+  - '&alt_tab'
   - LEFT ALT
   - SPACE
   - Alt+DOWN
-  - '&alt_tab'
+  - '&alt_tab_release'
   - Gui+Ctl+LEFT
   - LEFT WIN
   - ENTER
