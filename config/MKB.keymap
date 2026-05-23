@@ -69,7 +69,7 @@
 &kp TAB    &kp A         &kp S      &lt 2 D       &lt 1 F           &kp G            &kp H        &lt 1 J                   &lt 2 K       &kp L      &kp SEMI   &kp APOS
 &kp LSHFT  &kp Z         &kp X      &kp C         &kp V             &kp B            &kp N        &kp M                     &kp COMMA     &kp DOT    &kp SLASH  &kp LEFT_CONTROL
 &trans     &trans        &trans                   &kp LEFT_CONTROL  &lt 6 SPACE      &lt 6 ENTER  &mt LEFT_SHIFT BACKSPACE                &trans     &trans     &mo 5
-&alt_tab   &kp LEFT_ALT  &kp SPACE  &kp LA(DOWN)  &alt_tab_release                                &kp LG(LC(LEFT))          &kp LEFT_WIN  &kp ENTER  &kp LG(L)  &kp LG(LC(RIGHT_ARROW))
+&kp LEFT   &kp LEFT_ALT  &kp SPACE  &kp LA(DOWN)  &kp RIGHT                                       &kp LG(LC(LEFT))          &kp LEFT_WIN  &kp ENTER  &kp LG(L)  &kp LG(LC(RIGHT_ARROW))
                                     &kp A                                                                                   &kp B
             >;
 
