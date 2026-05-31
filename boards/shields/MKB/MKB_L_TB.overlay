@@ -1,3 +1,5 @@
+#include <input/processors/runtime-input-processor.dtsi>
+
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -22,11 +24,8 @@
         compatible = "zmk,input-listener";
         device = <&trackball2>;
         status = "okay";
-        //input-processors = <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,
-        //                   <&zip_xy_to_scroll_mapper &scroll_runtime_input_processor>;
-        input-processors = <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>, 
-                            <&zip_xy_to_scroll_mapper>, 
-                            <&scroll_runtime_input_processor>;    
+        input-processors = <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,
+                           <&zip_xy_to_scroll_mapper &scroll_runtime_input_processor>;
     };
 };
 
